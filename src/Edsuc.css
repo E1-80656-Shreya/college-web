@@ -1,0 +1,42 @@
+.vernav {
+  display: flex;
+  flex-direction: row;
+}
+.edsuc {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 80%;
+}
+.edsuc_title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.edsuc_subtitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+.vision {
+  font-size: 20px;
+  font-weight: 500;
+}
+.mission {
+  font-size: 20px;
+  font-weight: 500;
+}
+.image_div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.image_div div {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.image {
+  height: 200px;
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

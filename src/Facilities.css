@@ -1,0 +1,29 @@
+.sidebar-class-for-width {
+  width: 381px;
+}
+.facilities {
+  font-weight: 600;
+  font-size: 30px;
+}
+.listdiv div {
+  width: 10px;
+}
+.lst {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  border-bottom: 0.5px dotted gray;
+}
+.inlst {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  .vernav {
+    display: flex;
+    flex-direction: column;
+  }
+}
